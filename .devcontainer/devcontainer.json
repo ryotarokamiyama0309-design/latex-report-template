@@ -2,7 +2,7 @@
   "name": "LaTeX Report",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 
-  "postCreateCommand": "sudo apt update && sudo apt install -y texlive-lang-japanese latexmk",
+  "postCreateCommand": "sudo apt update && sudo apt install -y texlive-full latexmk",
 
   "customizations": {
     "vscode": {
