@@ -1,0 +1,14 @@
+{
+  "name": "LaTeX Report",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+
+  "postCreateCommand": "sudo apt update && sudo apt install -y texlive-lang-japanese latexmk",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "James-Yu.latex-workshop"
+      ]
+    }
+  }
+}
